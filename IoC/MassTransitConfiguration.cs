@@ -1,4 +1,5 @@
-﻿using Authorizer.Infrastructure.RabbitMQ.Consumers;
+﻿using Authorizer.Domain.Events;
+using Authorizer.Infrastructure.RabbitMQ.Consumers;
 using MassTransit;
 
 namespace Authorizer.Api.IoC
