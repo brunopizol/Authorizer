@@ -36,11 +36,9 @@ namespace Authorizer.Api.Endpoints
 
             try
             {
-                var result = await handler.HandleAsync(payload, cts.Token);
+                await handler.HandleAsync(payload, cts.Token);
 
-                return result.IsApproved
-                    ? Results.Ok(result)
-                    : Results.BadRequest(result);
+                return Results.Ok();
             }
             catch (OperationCanceledException)
             {
