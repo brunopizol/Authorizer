@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Authorizer.Domain/1.0.0": {
+        "dependencies": {
+          "Authorizer.FraudService": "1.0.0"
+        },
+        "runtime": {
+          "Authorizer.Domain.dll": {}
+        }
+      },
+      "Authorizer.FraudService/1.0.0": {
+        "runtime": {
+          "Authorizer.FraudService.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Authorizer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Authorizer.FraudService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
