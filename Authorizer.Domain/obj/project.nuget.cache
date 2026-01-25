@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJfEoKf90Fc=",
+  "dgSpecHash": "1SAij2pfxzQ=",
   "success": true,
-  "projectFilePath": "C:\\repos\\Authorizer.Domain\\Authorizer.Domain.csproj",
+  "projectFilePath": "C:\\repos\\Authorizer\\Authorizer.Domain\\Authorizer.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

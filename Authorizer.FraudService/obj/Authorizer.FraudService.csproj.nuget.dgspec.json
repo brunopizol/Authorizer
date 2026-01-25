@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\Authorizer.FraudService\\Authorizer.FraudService.csproj": {}
+    "C:\\repos\\Authorizer\\Authorizer.FraudService\\Authorizer.FraudService.csproj": {}
   },
   "projects": {
-    "C:\\repos\\Authorizer.FraudService\\Authorizer.FraudService.csproj": {
+    "C:\\repos\\Authorizer\\Authorizer.FraudService\\Authorizer.FraudService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\Authorizer.FraudService\\Authorizer.FraudService.csproj",
+        "projectUniqueName": "C:\\repos\\Authorizer\\Authorizer.FraudService\\Authorizer.FraudService.csproj",
         "projectName": "Authorizer.FraudService",
-        "projectPath": "C:\\repos\\Authorizer.FraudService\\Authorizer.FraudService.csproj",
+        "projectPath": "C:\\repos\\Authorizer\\Authorizer.FraudService\\Authorizer.FraudService.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\Authorizer.FraudService\\obj\\",
+        "outputPath": "C:\\repos\\Authorizer\\Authorizer.FraudService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

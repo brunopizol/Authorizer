@@ -9,3 +9,15 @@ C:\repos\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.dll
 C:\repos\Authorizer.FraudService\obj\Debug\net9.0\refint\Authorizer.FraudService.dll
 C:\repos\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.pdb
 C:\repos\Authorizer.FraudService\obj\Debug\net9.0\ref\Authorizer.FraudService.dll
+C:\repos\Authorizer\Authorizer.FraudService\bin\Debug\net9.0\Authorizer.FraudService.deps.json
+C:\repos\Authorizer\Authorizer.FraudService\bin\Debug\net9.0\Authorizer.FraudService.dll
+C:\repos\Authorizer\Authorizer.FraudService\bin\Debug\net9.0\Authorizer.FraudService.pdb
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.AssemblyInfoInputs.cache
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.AssemblyInfo.cs
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.csproj.CoreCompileInputs.cache
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.sourcelink.json
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.dll
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\refint\Authorizer.FraudService.dll
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\Authorizer.FraudService.pdb
+C:\repos\Authorizer\Authorizer.FraudService\obj\Debug\net9.0\ref\Authorizer.FraudService.dll
