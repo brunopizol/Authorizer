@@ -35,6 +35,11 @@ namespace Authorizer.Domain.Entities
 
         [JsonExtensionData]
         public Dictionary<string, object>? AdditionalData { get; set; }
+        [JsonConstructor]
+        public PurchasePayload()
+        {
+        }
+
     }
 
     /// <summary>
@@ -96,5 +101,7 @@ namespace Authorizer.Domain.Entities
         /// Data de geração do score
         /// </summary>
         public DateTime ScoreGeneratedAt { get; set; }
+
+
     }
 }

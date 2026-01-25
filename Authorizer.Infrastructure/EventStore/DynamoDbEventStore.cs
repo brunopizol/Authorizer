@@ -28,6 +28,7 @@ namespace Authorizer.Infrastructure.EventStore
         {
             // Obter a próxima versão para este stream
             var nextVersion = await GetStreamVersionAsync(streamId, ct) + 1;
+            var payload = @event.GetPayload();
 
             var item = new Dictionary<string, AttributeValue>
             {
@@ -35,7 +36,7 @@ namespace Authorizer.Infrastructure.EventStore
                 ["version"] = new AttributeValue { N = nextVersion.ToString() },
                 ["event_id"] = new AttributeValue { S = @event.EventId.ToString() },
                 ["event_type"] = new AttributeValue { S = @event.EventType },
-                ["event_data"] = new AttributeValue { S = JsonSerializer.Serialize(@event) },
+                ["event_data"] = new AttributeValue { S = JsonSerializer.Serialize(payload) },
                 ["occurred_at"] = new AttributeValue { S = @event.OccurredAt.ToString("O") },
                 ["aggregate_id"] = new AttributeValue { S = @event.AggregateId }
             };

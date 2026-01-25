@@ -12,6 +12,10 @@ namespace Authorizer.Domain.Events
     {
         public PurchasePayload Payload { get; init; }
 
+        public override object GetPayload() => Payload;
+
+        public TransactionReceivedEvent() { }
+
         [JsonConstructor]
         public TransactionReceivedEvent(PurchasePayload payload)
         {

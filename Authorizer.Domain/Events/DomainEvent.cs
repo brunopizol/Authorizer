@@ -17,6 +17,7 @@ namespace Authorizer.Domain.Events
         public string AggregateId { get; init; } = string.Empty;
         
         public int Version { get; init; }
+        public abstract object GetPayload();
 
         protected DomainEvent()
         {

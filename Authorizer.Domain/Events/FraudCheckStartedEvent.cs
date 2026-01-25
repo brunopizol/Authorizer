@@ -8,7 +8,7 @@ namespace Authorizer.Domain.Events
 {
     public class FraudCheckStartedEvent : DomainEvent
     {
-
+        public override object GetPayload() => new { TransactionId, StartedAt };
         public string TransactionId { get; init; }
         public DateTime StartedAt { get; init; }
     }
